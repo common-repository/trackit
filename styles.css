@@ -1,0 +1,33 @@
+.trackit table{
+	width: 100%;
+}
+.trackit .card{
+	max-width: none !important;
+}
+.trackit label{
+	font-weight: bold;
+}
+.trackit input[type=text],
+.trackit select{
+	width: 500px;
+}
+.trackit textarea{
+	resize: none;
+	width: 500px;
+	height: 150px;
+}
+.trackit .delete-confirmation{
+	text-align: center;
+}
+.ti-icon-edit,
+.ti-icon-delete{
+	height: 18px;
+	width: 18px;
+	display: block;
+	fill: #4d4d4d;
+	transition: all 300ms;
+}
+.ti-icon-edit:hover,
+.ti-icon-delete:hover{
+	fill: #a0a5aa;
+}
